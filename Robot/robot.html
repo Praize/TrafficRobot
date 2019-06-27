@@ -1,0 +1,81 @@
+<Doctype html>
+<html>
+<head>
+
+<title>ROBOT</title>
+<meta charset="utf-8"><!-- is character encoding capable of encoding all characters on the web-->
+<style type="text/css">
+#main
+{
+	
+	border:8px solid ;
+	width:150px;
+	height:450px;
+	margin:auto;
+	margin-top:50px;
+	padding:20px;
+	background-color:#fff071;
+}
+#RedBot , #YellowBot , #GreenBot 
+{
+    
+    border:3px solid;
+    padding:1px;
+    height:130px;
+    background-color:white;
+    border-radius:70%;
+    
+}
+</style>
+</head>
+<body>
+	<div id="main">
+		<div class="row">
+				
+					<div id="RedBot">
+						
+					</div>
+					<br>
+
+			
+					<div id="YellowBot">
+						
+					</div>
+				    <br>
+
+				
+					<div id="GreenBot">
+						
+					</div>
+				    <br>
+		</div>
+	</div>
+<Script>
+function GreenBot()
+{
+   document.getElementById("GreenBot").style.backgroundColor = "green"; 
+   document.getElementById("YellowBot").style.backgroundColor = "white";  
+   document.getElementById("RedBot").style.backgroundColor = "white";  
+
+}
+function YellowBot()
+{
+   document.getElementById("YellowBot").style.backgroundColor = "yellow";  
+   document.getElementById("RedBot").style.backgroundColor = "white";  
+   document.getElementById("GreenBot").style.backgroundColor = "white"; 
+}
+function RedBot()
+{
+  
+   document.getElementById("RedBot").style.backgroundColor = "red"; 
+   document.getElementById("YellowBot").style.backgroundColor = "white";  
+   document.getElementById("GreenBot").style.backgroundColor = "white"; 
+
+}
+</Script>
+
+<button type="button" onclick="GreenBot()">GO</button>
+<button type="button" onclick="YellowBot()">GET READY</button>
+<button type="button" onclick="RedBot()">STOP</button>
+</body>
+</html>

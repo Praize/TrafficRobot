@@ -1,0 +1,20 @@
+#main{
+	
+	border:8px solid ;
+	width:150px;
+	height:450px;
+	margin:auto;
+	margin-top:50px;
+	padding:20px;
+	background-color:#fff071;
+
+}
+#RedBot , #YellowBot , #GreenBot {
+    
+    border:3px solid;
+    padding:1px;
+    height:130px;
+    background-color:#fff;
+    border-radius:70%;
+    
+}
